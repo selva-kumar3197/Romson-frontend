@@ -1,0 +1,262 @@
+.career {
+    padding: 4rem;
+    padding-top: 10rem;
+}
+
+.career_section1 {
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/Career/Banner+(1).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.career_sectio1_text {
+    width: 50%;
+    padding: 4rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.career_sectio1_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 2rem;
+    width: 100%
+}
+
+.career_sectio1_text_description {
+    color: #272B36;
+    font-size: 20px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+}
+.career_section2{
+    width: 100%;
+    height: max-content;
+    background-image: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/QualityControl/Content.png');
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    padding: 80px 64px ; 
+}
+.career_section2_headerText{
+    width: 50%;
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+}
+.career_section2_paraText{
+    width: 790px;
+    margin-top: 16px;
+    color: #006C68;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    line-height: 30px;
+}
+.career_section2_button{
+    width: max-content;
+    border-radius: 30px;
+    background-color: #006C68;
+    color: #FFFFFF;
+    padding: 12px 40px;
+    text-align: center;
+    font-size: 18px;
+    /* font-family: 'EB Garamond', serif; */
+    font-weight: 400;
+    line-height: 30px;
+}
+.career_section2bottomConatiner{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap:54px;
+    margin-bottom: 68px;
+}
+.career_section2bottomHeaderText{
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 30px;
+}
+.career_section2bottomcardcontainer{
+    background-color: #FFDF9B;
+    width: 424px;
+    height: max-content;
+    border-radius: 40px;
+    border:0.8px solid #FFB320;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.career_section2bottomcardHeader{
+    margin-top: 30px;
+    margin-left: 30px;
+    color: #006C68;
+    font-size: 40px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    line-height: 40px;
+}
+.career_section2bottomcardPara{
+    width: 364px;
+    margin-top: 16px;
+    color: #272B36;
+    font-size: 18px;
+    /* font-family: 'EB Garamond', serif; */
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 30px;
+}
+.career_section3{
+    padding: 80px 64px;
+}
+.career_section3HeaderText{
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+.career_section3openingContainer{
+    margin-top: 57px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:20px
+
+}
+
+.career_section3openingCardContainer{
+    width: 424px;
+    height: 500px;
+    background-color: #AAEFDF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+.career_section3openingCardbottomConatiner{
+    position: absolute;
+    background-color: #FFF;
+    width: 100%;
+    height: max-content;
+    bottom: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    padding: 24px;
+}
+.career_section3openingCardHeading{
+    padding-top: 24px;
+    padding-left: 24px;
+    color: #006C68;
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+.career_section3openingCardDepartment{
+    margin-top: 16px;
+    margin-left: 24px;
+    background-color: #FFF;
+    color: #E79C00;
+    border-radius: 28px;
+    text-align: center;
+    width: max-content;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+.career_section3openingCardbottomText{
+    margin-bottom: 16px;
+    color: #006C68;
+    font-size: 20px;
+    /* font-family: 'EB Garamond', serif; */
+    font-weight: 600;
+}
+.career_section3openingCardbottomButton{
+    text-align: center;
+    background-color: #006C68;
+    color: #FFF;
+    border-radius: 30px;
+    padding: 12px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.career_section4 {
+    width: 100%;
+    height: max-content;
+    background-image: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/QualityControl/Content.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 64px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.career_section4TitleText{
+    width: 666px;
+    color: #006C68;
+    font-size: 48px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+}
+.career_section4SubmitButton{
+    text-align: center;
+    background-color: #006C68;
+    color: #FFF;
+    padding-top:12px;
+    padding-bottom: 12px;
+    border-radius: 30px;
+    margin-top: 40px;
+    font-size: 18px;
+    /* font-family: 'EB Garamond', serif; */
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    .career {
+        padding: 0;
+        padding-top: 4rem;
+    }
+
+    .career_section1 {
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/Career/Banner+(1).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 650px;
+        border-radius: 0;
+        overflow: hidden;
+    }
+
+    .career_sectio1_text {
+        width: 100%;
+        padding: 2rem;
+        justify-content: end;
+    }
+
+    .career_sectio1_text_heading {
+        font-size: 32px;
+        line-height: 115%;
+        margin-bottom: 1rem;
+    }
+
+    .career_sectio1_text_description {
+        font-size: 16px;
+        line-height: 150%;
+    }
+}

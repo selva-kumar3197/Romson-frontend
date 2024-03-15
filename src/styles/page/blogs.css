@@ -1,0 +1,290 @@
+.blogs{
+    padding: 4rem;
+    padding-top: 10rem;
+}
+.blogs_section1{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/blogs/Banner+(3).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.blogs_sectio1_text {
+    width: 50%;
+    padding: 4rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.blogs_sectio1_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 2rem;
+    width: 100%
+}
+.blogs_sectio1_text_description {
+    color: #272B36;
+    font-size: 20px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+}
+
+
+.blogs_section2{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/blogs/Blog+list.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 4rem;
+}
+.blogs_section2_text_heading{
+    font-family: "EB Garamond";
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 84px;
+    color: #006C68;
+    margin-bottom: 3rem;
+}
+.blogs_section2_category{
+    display: flex;
+    margin-bottom: 3rem;
+    overflow: scroll;
+}
+.blogs_section2_category::-webkit-scrollbar {
+    display: none;
+}
+.blogs_section2_category {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+.blogs_section3_btn {
+    padding: 10px 20px ;
+    margin-right: 1rem;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    border-radius: 50px;
+    color: #006C68;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.blogs_section3_btn.active{
+    background: #5ADCBE;
+}
+.blogs_section2_cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.blogs_section2_cards_col:nth-child(even){
+    padding-top: 3rem;
+}
+
+
+
+.blogsInternal_section1{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/blogs/Banner+(4).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.blogsInternal_date {
+    width: 40%;
+}
+.blogsInternal_date>span{
+    color: #006C68;
+    width: fit-content;
+    background: #fff;
+    padding: 6px 10px;
+    font-weight: 600;
+    border-radius: 8px;
+}
+
+.blogsInternal_heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+} 
+.blogsInternal_title {
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 54px;
+    color: #006C68;
+}
+.blogsInternal_share {
+    font-weight: 22px;
+    line-height: 120%;
+    display: flex;
+    color: #006C68;
+    font-weight: bold;
+    gap: 22px;
+    align-items: center;
+}
+.blogsInternal_share> img {
+    cursor: pointer;
+}
+
+.blogs_section2 > p {
+    color: #006C68;
+    font-weight: 18px;
+    line-height: 34px;
+}
+
+
+
+.blogsInternal_section3{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/blogs/BG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
+    /* padding: 4rem; */
+}
+.blogsInternal_section3_text {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    width: 100%;
+    padding: 4rem 4rem 2rem 4rem;
+    padding-bottom: 0;
+}
+.blogsInternal_section3_cards {
+    display: flex;
+    overflow: scroll;
+    flex-wrap: nowrap;
+    z-index: 9999;
+    /* overflow: visible; */
+    /* overflow-x: scroll; */
+    /* over */
+    overflow:visible;
+    overflow-x: scroll;
+    padding: 5rem 0 5rem 4rem;
+}
+/* .blogsInternal_section3_cards > . */
+.blogsInternal_section3_cards::-webkit-scrollbar {
+    display: none;
+}
+.blogsInternal_section3_cards {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+.blogsInternal_section3_cards > .react-reveal > .blogCardMain {
+    width: 410px;
+    aspect-ratio: 1;
+    
+}
+
+.blogsInternal_section3_cards .blogCardMain {
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .blogs {
+        padding: 0;
+        padding-top: 4rem;
+    }
+    .blogs_section1 {
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/blogs/Banner+(3).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 650px;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .blogs_sectio1_text {
+        width: 100%;
+        padding: 1rem;
+        justify-content: flex-end;
+    }
+    .blogs_sectio1_text_heading {
+        font-size: 32px;
+        line-height: 115%;
+        margin-bottom: 1rem;
+    }
+    .blogs_sectio1_text_description {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .blogs_section2 {
+        padding: 1rem;
+        padding-top: 2rem;
+    }
+    .blogs_section2_text_heading {
+        font-size: 32px;
+        line-height: 115%;
+    }
+    .blogs_section2_text_heading {
+        margin-bottom: 1rem;
+    }
+    .blogs_section2_category {
+        margin-bottom: 1rem;
+    }
+
+    .blogs_section2_cards{
+        grid-template-columns: auto auto;
+    }
+    .blogs_section3_btn {
+        min-width: 100px;
+        font-size: 16px;
+        margin-right: 0.5rem;
+    }
+
+    .blogsInternal_section1 {
+        border-radius: 0;
+    }
+
+
+    .blogsInternal_heading {
+        display: block;
+    }
+    .blogsInternal_title {
+        margin-bottom: 1rem;
+    }
+
+    .blogsInternal_section3_text {
+        padding: 1rem;
+        font-size: 32px;
+        margin-bottom: 0;
+    }
+    .blogsInternal_section3_cards {
+        padding: 0;
+        padding-left: 1rem;
+        padding-bottom: 2rem;
+    }
+    .blogsInternal_section3_cards > .blogCard {
+        width: 90%;
+        margin-right: 1rem;
+    }
+}
+
+
+
+@media screen and (max-width: 530px) {
+    .blogs_section2_cards{
+        grid-template-columns: auto;
+    }
+    .blogs_section2_cards_col:nth-child(even){
+        padding-top: unset;
+    }
+}

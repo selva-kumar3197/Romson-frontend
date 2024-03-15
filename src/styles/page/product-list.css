@@ -1,0 +1,286 @@
+.productList{
+    padding: 4rem;
+    padding-top: 10rem;
+}
+.productList_section1{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/product-list/Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.productList_sectio1_text {
+    width: 50%;
+    padding: 4rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.productList_sectio1_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 2rem;
+    width: 100%
+}
+.productList_sectio1_text_description {
+    color: #272B36;
+    font-size: 20px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+}
+
+
+
+
+.productList_section2{
+    padding: 0 4rem 2rem 4rem;
+}
+.productList_section2_location {
+    display: flex;
+    justify-content: flex-end;
+}
+.productList_section2_location_btn {
+    padding: 0.5rem 3rem ;
+    border-radius: 50px;
+    color: #2E2E2E;
+}
+.productList_section2_location_btn.active {
+    background: #006C68;
+    color: #ffffff;
+}
+
+
+
+
+.productList_section3{
+    padding: 0 4rem 1rem 4rem;
+}
+.productList_section3_category {
+    display: flex;
+    overflow: auto;
+}
+.productList_section3_category::-webkit-scrollbar {
+    display: none;
+}
+.productList_section3_category {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+.productList_section3_btn {
+    padding: 10px 30px ;
+    margin-right: 1rem;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 1px solid #AAEFDF;
+    color: #006C68;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.productList_section3_btn.active{
+    background: #5ADCBE;
+}
+.productList_section3_cards {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* justify-content: center; */
+}
+.productList_section3_card {
+    background-image: url(https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/ANESTHESIA.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 320px;
+    margin-bottom: 2rem;
+    border-radius: 40px;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+}
+.productList_section3_card.card2{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/ANESTHESIA+(1).png");
+}
+.productList_section3_card_heading {
+    color: #006C68;
+    font-size: 32px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+.productList_section3_card > img {
+    position: absolute;
+    width: 80%;
+    bottom: 0px;
+    right: 0px;
+}
+.productList_section3_load{
+    display: flex;
+    margin: 2rem 0;
+}
+.productList_section3_load_btn {
+    padding: 0.75rem 4rem;
+    border-radius: 50px;
+    background: #006C68;
+    color: #ffffff;
+    margin: auto;
+}
+
+
+
+
+.productList_section4{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Shop+Now+Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.productList_section4_text {
+    padding: 5rem;
+}
+.productList_section4_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 2rem;
+    text-align: center;
+    /* margin: 0 auto 2rem; */
+    width: 100%
+}
+.productList_section4_text_description {
+    color: #006C68;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Proxima Nova';
+    line-height: 120%;
+}
+.productList_section4_shop{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 0 0;
+}
+.productList_section4_shop_btn {
+    padding: 0.75rem 4rem;
+    border-radius: 50px;
+    background: #006C68;
+    color: #ffffff;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .productList {
+        padding: 0;
+        padding-top: 4rem;
+    }
+    .productList_section1 {
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/product-list/Banner+(2).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 650px;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .productList_sectio1_text {
+        width: 100%;
+        padding: 2rem;
+        justify-content: flex-end;
+    }
+    .productList_sectio1_text_heading {
+        font-size: 32px;
+        line-height: 115%;
+        margin-bottom: 1rem;
+    }
+    .productList_sectio1_text_description {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+
+
+
+
+    .productList_section2{
+        padding: 1rem
+    }
+    .productList_section2_location {
+        justify-content: space-around;
+    }
+
+
+
+    .productList_section3{
+        padding: 1rem
+    }
+    .productList_section3_cards {
+        grid-template-columns: auto auto;
+    }
+    .productList_section3_card {
+        width: auto;
+        height: 320px;
+        /* aspect-ratio: 4/4; */
+        padding: 2rem;
+        margin-right: 10px;
+        background-position: right bottom;
+    }
+    .productList_section3_card_heading {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+    .productList_section3_card > img {
+        bottom: 60px;
+    }
+}
+
+
+
+@media screen and (max-width: 530px) {
+    .productList_section3_cards{
+        grid-template-columns: auto;
+    }
+    .productList_section3_card {
+        width: 100%;
+    }
+    .productList_section3_load_btn {
+        width: 100%;
+    }
+
+
+
+    .productList_section4{
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Shop+Now+Banner+(1).png");
+    }
+    .productList_section4_text {
+        padding: 2rem;
+        padding-bottom: 200px;
+    }
+    .productList_section4_text_heading {
+        font-size: 32px;
+        line-height: 115%;
+    }
+    .productList_section4_text_description {
+        font-size: 16px;
+        line-height: 115%;
+    }
+}

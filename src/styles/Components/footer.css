@@ -1,0 +1,155 @@
+@media only screen and (max-width: 600px) {
+    .footerMainContainer {
+        width: 100%;
+        height: 100%;
+        background-image: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/Footer+dark.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .footerInside {
+        padding-top: 36px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-bottom: 39px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .footerLeftTextTitle {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 0.875rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1rem;
+        /* 30px / 16px = 1.875rem */
+        color: #FFFFFF;
+    }
+
+    .footerLeftTextDescription {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.5rem;
+        color: #FFFFFF;
+    }
+
+    .footerPageText {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 1rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.8rem;
+        /* 30px / 16px = 1.875rem */
+        color: #FFFFFF;
+    }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .footerMainContainer {
+        width: 100%;
+        height: 100%;
+        background-image: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/Footer+dark.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .footerInside {
+        padding-top: 80px;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-bottom: 39px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .footerLeftTextTitle {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 0.875rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1rem;
+        /* 30px / 16px = 1.875rem */
+        color: #FFFFFF;
+    }
+
+    .footerLeftTextDescription {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.5rem;
+        color: #FFFFFF;
+    }
+
+    .footerPageText {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 1rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.8rem;
+        /* 30px / 16px = 1.875rem */
+        color: #FFFFFF;
+    }
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1025px) {
+    .footerMainContainer {
+        width: 100%;
+        height: 100%;
+        background-image: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/Footer+dark.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .footerInside {
+        padding-top: 80px;
+        padding-left: 64px;
+        padding-right: 64px;
+        padding-bottom: 39px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .footerLeftTextTitle {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 1.25rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.875rem;
+        /* 30px / 16px = 1.875rem */
+        color: #FFFFFF;
+    }
+
+    .footerLeftTextDescription {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.5rem;
+        color: #FFFFFF;
+    }
+
+    .footerPageText {
+        cursor: pointer;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 1.25rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.875rem;
+        /* 30px / 16px = 1.875rem */
+        color: #FFFFFF;
+    }
+}

@@ -1,0 +1,191 @@
+.productDetailsection1_main {
+    margin-top: 200px;
+    display: flex;
+    width: 100%;
+    padding-left: 64px;
+    padding-right: 64px;
+    justify-content: space-between;
+    gap: 45px;
+}
+
+.productDetailsection1_mainslider {
+    background-color: #FFF0C9;
+    border-radius: 24px;
+    outline: none;
+}
+
+.slick-slider :focus-visible {
+    outline: none;
+}
+
+.slick-prev:before {
+    content: '' !important;
+}
+
+.slick-next:before {
+    content: '' !important;
+}
+
+.productDetailsection1_cta {
+    background-color: #FFEDCA;
+    color: #006C68;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    border-radius: 24px;
+    padding: 8px 16px;
+    width: max-content;
+}
+
+.productDetailsection1_productTitle {
+    color: #006C68;
+    text-transform: capitalize;
+    font-size: 82px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    border-radius: 24px;
+}
+
+.productDetailsection1_productdescription {
+    color: #006C68;
+    font-size: 20px;
+    font-family: 'Proxima Nova';
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.productDetailsection1_productfeaturemain {
+
+    padding: 15px 30px;
+    border-width: 1px;
+    border-radius: 30px;
+    margin-bottom: 28px;
+    background-color: #FCFCFC;
+}
+
+.productDetailsection1_productfeaturemainactive {
+
+    padding: 15px 30px;
+    border-radius: 30px;
+    margin-bottom: 28px;
+    background-color: #EFFCF9;
+}
+
+.productDetailsection1_mainsliderbottombutton {
+    width: 100%;
+    background: #006C68;
+    color: #FFF;
+    padding: 12px 24px;
+    border-radius: 30px;
+    margin-top: 44px;
+    text-align: center;
+    margin-bottom: 44px;
+}
+
+.productDetailsection1_leftside {
+    width: 60%;
+
+}
+
+.productDetailsection2_main {
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/contactus/Our+Story.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-left: 68px;
+    padding-bottom: 68px;
+
+}
+
+.scrollscurson {
+    cursor: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/Drag.svg") 50 50, auto;
+
+}
+
+.productDetailsection2_title {
+    color: #006C68;
+    text-transform: capitalize;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+
+.productDetailsection2_description {
+    color: #006C68;
+    font-size: 28px;
+    font-family: 'Proxima Nova';
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.productDetailsection2_cardsconatiner {
+    margin-top: 57px;
+}
+
+.productDetailsection2_cards {
+    background-color: #AAEFDF;
+    border-radius: 40px;
+    width: 486px;
+}
+
+.productDetailsection2_cardstag {
+    width: max-content;
+    background-color: #FFF;
+    color: #006C68;
+    padding: 8px 16px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Proxima Nova';
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.productDetailsection2_cardsTitle {
+    margin-top: 95px;
+    color: #006C68;
+    text-transform: capitalize;
+    font-size: 40px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+    padding-left: 22px;
+    margin-bottom: 22px;
+}
+
+.productDetailsection2_cardsImage {
+    padding: 22px;
+    width: 100%;
+    height: 100%;
+    background-color: #FFF;
+    border-radius: 30px;
+}
+
+.productDetailsection1_productKeys {
+    color: #006C68;
+    text-transform: capitalize;
+    font-size: 28px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 600;
+}
+
+.dropdown-content {
+    max-height: max-content;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    /* Adjust the duration and timing function as needed */
+}
+
+.productDetailsection1_keyFeaturesDropdown {
+    color: #006C68;
+    font-size: 20px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    border-bottom-width: 1px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    border-bottom-color: #006C68;
+}

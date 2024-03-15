@@ -1,0 +1,239 @@
+.main-header {
+    position: fixed;
+    top: 0;
+    transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    /* opacity: 1; */
+    /* height: auto; */
+}
+.hide-header {
+    top: -130px;
+    /* opacity: 0; */
+    /* height: 0px; */
+}
+
+.link_parent:hover:after {
+    transform-origin: 0 0;
+    transform: scaleX(1);
+}
+
+.link--custom:hover .link__default-text {
+    transform: translateY(-125%);
+}
+
+.link--custom:hover .link__hover-text {
+    transform: none;
+}
+
+.link--custom .link__hover-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(155%);
+    color: #006C68;
+}
+
+.link__inner {
+    overflow: hidden;
+    position: relative;
+    display: block;
+}
+
+.link__inner.white .link__default-text, .link__inner.white .link__hover-text  {
+    color: white !important;
+}
+
+.link__default-text {
+    display: block;
+    position: relative;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transition-duration: .5s;
+    color: #006C68;
+}
+
+.link__hover-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(125%);
+}
+
+.link__hover-text {
+    display: block;
+    position: relative;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(.215, .61, .355, 1);
+    transition-duration: .5s;
+}
+
+.link--custom {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+}
+
+.link--custom:after {
+    bottom: -0.15em;
+}
+
+.link_parent:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0.05em;
+    border-bottom: 1px solid #006C68;
+    will-change: transform;
+    transform-origin: 100% 100%;
+    transform: scaleX(0);
+    pointer-events: none;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: .5s;
+}
+
+
+.newlink_parent:hover:after {
+    transform-origin: 0 0;
+    transform: scaleX(1);
+}
+
+.newlink--custom:hover .newlink__default-text {
+    transform: translateY(-125%);
+}
+
+.newlink--custom:hover .newlink__hover-text {
+    transform: translate(-50%, 0%);
+}
+
+.newlink--custom .newlink__hover-text {
+    position: absolute;
+    left: 50%;
+    width: 100%;
+    top: 0;
+    transform: translate(-50%, 155%);
+    display: flex;
+    justify-content: center;
+}
+
+.newlink__inner {
+    overflow: hidden;
+    position: relative;
+    align-items: center ;
+    display: block;
+}
+
+.newlink__default-text {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: .5s;
+}
+
+.newlink__hover-text {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(125%, -50%);
+}
+
+.newlink__hover-text {
+    display: block;
+    position: relative;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: .5s;
+    color: #FFF;
+}
+
+.newlink--custom {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    cursor: pointer;
+}
+
+.newlink--custom:after {
+    bottom: -0.15em;
+}
+
+.newlink_parent{
+    width: 100%;
+}
+
+.newlink_parent:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 0.05em;
+    will-change: transform;
+    transform-origin: 100% 100%;
+    transform: scaleX(0);
+    pointer-events: none;
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition-duration: .5s;
+}
+
+
+.new-header-shopnowbutton {
+    position: relative;
+    background: linear-gradient(to bottom, transparent 50%, #006C68 50%);
+    background-size: 100% 200%;
+    will-change: transform;
+    transition: all 0.3s ease-in-out;
+}
+
+.new-header-shopnowbutton:hover {
+    background-position: 0% 100% !important;
+}
+
+.hamburgermenu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 120vh;
+    width: 100vw;
+    background: rgba(0,0,0,0.8);
+    overflow: hidden;
+    z-index: 99999;
+    /* Set initial state */
+    /* position: absolute;
+    height: 320px;
+    top: 15%;
+    left: 0;
+    bottom: 50%;
+    text-align: center;
+    background-color: #006C82;
+    transform: translate(-100%, 100);
+    transition: transform 0.3s ease-in-out;
+    border-radius: 40px; */
+    /* padding: 15px; */
+}
+
+.headerMobileCard{
+    background-color: #006C68;
+    border-radius: 20px;
+}
+
+.hamburgermenu.opened {
+    /* Set final state */
+    transform: translate(0, 0);
+}
+
+.skiptranslate {
+    display: none;
+}
+
+/* .hide-header {
+    top: -150px;
+    position: absolute;
+} */
+

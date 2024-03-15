@@ -1,0 +1,140 @@
+.quality {
+    padding: 4rem;
+    padding-top: 10rem;
+}
+
+.quality_section1 {
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/QualityControl/Banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.quality_sectio1_text {
+    width: 53%;
+    padding: 4rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.quality_sectio1_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 2rem;
+    width: 100%
+}
+
+.quality_sectio1_text_description {
+    color: #272B36;
+    font-size: 20px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+}
+
+.quality_section2{
+    width: 100%;
+    height: 1307px;
+    background-image: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/QualityControl/Content.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 64px ; 
+
+}
+.quality_section2contentContainer{
+    /* padding: 80px 64px ;  */
+}
+.quality_section2contentHeadtext{
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 16px;
+}
+.quality_section2contentparatext{
+    color: #006C68;
+    font-size: 18px;
+    /* font-family: 'EB Garamond', serif; */
+    font-weight: 400;
+    line-height: 34px;
+}
+.quality_section2contentul{
+    margin-top: 24px;
+    list-style: disc;
+    color: #006C68;
+    padding-left: 24px;
+    font-size: 18px;
+    /* font-family: 'EB Garamond', serif; */
+    font-weight: 400;
+    line-height: 34px;
+
+}
+.quality_section2certificationImageContainer{
+    margin-top: 102px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow: hidden;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.quality_section2ImageContainer{
+    margin-top: 102px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: hidden;
+    align-items: center;
+    gap:64px
+}
+.quality_section2Imagestyles{
+    width: 646px;
+    height: 398px;
+    border-radius: 40px;
+    justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+
+    .quality {
+        padding: 0;
+        padding-top: 4rem;
+    }
+
+    .quality_section1 {
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/QualityControl/Banner.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 650px;
+        border-radius: 0;
+        overflow: hidden;
+    }
+
+    .quality_sectio1_text {
+        width: 100%;
+        padding: 2rem;
+        justify-content: end;
+    }
+
+    .quality_sectio1_text_heading {
+        font-size: 32px;
+        line-height: 115%;
+        margin-bottom: 1rem;
+    }
+
+    .quality_sectio1_text_description {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+
+}

@@ -1,0 +1,313 @@
+@media only screen and (max-width: 600px) {
+    .newsEvents_MainContainer {
+        padding-top: 5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .newsEvents_TopTextConatiner {
+        
+    }
+
+    .newsEvents_MainTitle {
+        font-family: 'EB Garamond', serif;
+        font-weight: 700;
+        font-size: 2rem;
+        /* 48px / 16px = 3rem */
+        line-height: 3.6rem;
+        /* 57.6px / 16px = 3.6rem */
+        color: #006C68;
+    }
+
+    .newsEvents_MainDescription {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1rem;
+        /* 28px / 16px = 1.75rem */
+        line-height: 1.5rem;
+        /* 42px / 16px = 2.625rem */
+        color: #006C68;
+    }
+
+    .newsEvents_TopBarButton {
+        margin-top: 20px;
+        width: 158px;
+        padding: 10px 29px;
+        border-radius: 30px;
+        gap: 10px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-size: 1.125rem;
+        /* 18px / 16px = 1.125rem */
+        font-weight: 700;
+        line-height: 1.125;
+        /* 18px / 18px = 1 */
+        letter-spacing: 0em;
+        text-align: center;
+        background-color: #006C68;
+
+        color: #FFF;
+    }
+
+    .newsEvents_bottomMainConatiner {
+        display: flex;
+        gap: 53px;
+        overflow-x: scroll;
+    }
+
+    .newsEvents_CardsContainer {
+        margin-top: 1rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.25rem;
+        border-right: 1px solid #006C68;
+        width: max-content;
+        padding-right: 1.25rem;
+    }
+
+    .newsEvents_CardsTextContainer {
+        margin-top: 1.5rem;
+        width: 15.5rem;
+    }
+
+    .newsEvents_CardsTextDates {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 0.875rem;
+        /* 14px / 16px = 0.875rem */
+        line-height: 0.875rem;
+        /* 14px / 16px = 0.875rem */
+        color: #006C68;
+    }
+
+    .newsEvents_CardsTextTitle {
+        margin-top: 8px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 1.25rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.25rem;
+        /* 20px / 16px = 1.25rem */
+        color: #006C68;
+    }
+
+    .newsEvents_CardsTextDescription {
+        margin-top: 12px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1rem;
+        /* 16px / 16px = 1rem */
+        line-height: 1rem;
+        /* 16px / 16px = 1rem */
+        color: #006C68;
+    }
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .newsEvents_MainContainer {
+        padding-top: 5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .newsEvents_TopTextConatiner {
+        
+    }
+
+    .newsEvents_MainTitle {
+        font-family: 'EB Garamond', serif;
+        font-weight: 700;
+        font-size: 2rem;
+        /* 48px / 16px = 3rem */
+        line-height: 3.6rem;
+        /* 57.6px / 16px = 3.6rem */
+        color: #006C68;
+    }
+
+    .newsEvents_MainDescription {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1rem;
+        /* 28px / 16px = 1.75rem */
+        line-height: 1.5rem;
+        /* 42px / 16px = 2.625rem */
+        color: #006C68;
+    }
+
+    .newsEvents_TopBarButton {
+        margin-top: 20px;
+        width: 158px;
+        padding: 10px 29px;
+        border-radius: 30px;
+        gap: 10px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-size: 1.125rem;
+        /* 18px / 16px = 1.125rem */
+        font-weight: 700;
+        line-height: 1.125;
+        /* 18px / 18px = 1 */
+        letter-spacing: 0em;
+        text-align: center;
+        background-color: #006C68;
+
+        color: #FFF;
+    }
+
+    .newsEvents_bottomMainConatiner {
+        display: flex;
+        gap: 53px;
+        overflow-x: scroll;
+    }
+
+    .newsEvents_CardsContainer {
+        margin-top: 1rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.25rem;
+        border-right: 1px solid #006C68;
+        width: max-content;
+        padding-right: 1.25rem;
+    }
+
+    .newsEvents_CardsTextContainer {
+        margin-top: 1.5rem;
+        width: 15.5rem;
+    }
+
+    .newsEvents_CardsTextDates {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 0.875rem;
+        /* 14px / 16px = 0.875rem */
+        line-height: 0.875rem;
+        /* 14px / 16px = 0.875rem */
+        color: #006C68;
+    }
+
+    .newsEvents_CardsTextTitle {
+        margin-top: 8px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 1.25rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.25rem;
+        /* 20px / 16px = 1.25rem */
+        color: #006C68;
+    }
+
+    .newsEvents_CardsTextDescription {
+        margin-top: 12px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1rem;
+        /* 16px / 16px = 1rem */
+        line-height: 1rem;
+        /* 16px / 16px = 1rem */
+        color: #006C68;
+    }
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1025px) {
+    .newsEvents_MainContainer {
+        padding-top: 5rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-bottom: 5rem;
+    }
+
+    .newsEvents_TopTextConatiner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .newsEvents_MainTitle {
+        font-family: 'EB Garamond', serif;
+        font-weight: 700;
+        font-size: 3rem;
+        /* 48px / 16px = 3rem */
+        line-height: 3.6rem;
+        /* 57.6px / 16px = 3.6rem */
+        color: #006C68;
+    }
+
+    .newsEvents_MainDescription {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1.75rem;
+        /* 28px / 16px = 1.75rem */
+        line-height: 2.625rem;
+        /* 42px / 16px = 2.625rem */
+        color: #006C68;
+    }
+
+    .newsEvents_TopBarButton {
+        /* width: 158px; */
+        padding: 10px 29px;
+        border-radius: 30px;
+        gap: 10px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-size: 1.125rem;
+        /* 18px / 16px = 1.125rem */
+        font-weight: 700;
+        line-height: 1.125;
+        /* 18px / 18px = 1 */
+        letter-spacing: 0em;
+        text-align: center;
+        background-color: #006C68;
+
+        color: #FFF;
+    }
+
+    .newsEvents_bottomMainConatiner {
+        display: flex;
+        gap: 53px;
+    }
+
+    .newsEvents_CardsContainer {
+        margin-top: 1rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.25rem;
+        border-right: 1px solid #006C68;
+        width: max-content;
+        padding-right: 3.313rem;
+    }
+
+    .newsEvents_CardsTextContainer {
+        margin-top: 1.5rem;
+        width: 15.5rem;
+    }
+
+    .newsEvents_CardsTextDates {
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 0.875rem;
+        /* 14px / 16px = 0.875rem */
+        line-height: 0.875rem;
+        /* 14px / 16px = 0.875rem */
+        color: #006C68;
+    }
+
+    .newsEvents_CardsTextTitle {
+        margin-top: 8px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 700;
+        font-size: 1.25rem;
+        /* 20px / 16px = 1.25rem */
+        line-height: 1.25rem;
+        /* 20px / 16px = 1.25rem */
+        color: #006C68;
+    }
+
+    .newsEvents_CardsTextDescription {
+        margin-top: 12px;
+        /* font-family: 'Proxima Nova', sans-serif; */
+        font-weight: 400;
+        font-size: 1rem;
+        /* 16px / 16px = 1rem */
+        line-height: 1rem;
+        /* 16px / 16px = 1rem */
+        color: #006C68;
+    }
+}

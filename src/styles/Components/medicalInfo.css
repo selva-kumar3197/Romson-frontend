@@ -1,0 +1,354 @@
+@media only screen and (max-width: 600px) {
+    .medicalInfoMain {
+        margin-top: 2.25rem;
+        padding-bottom: 5rem;
+        padding-left: 1.5rem;
+    }
+
+    .medicalInfoMainCardsContainermobile {
+        display: flex;
+        gap: 0.75rem;
+        overflow-x: scroll;        
+    }
+    .medicalInfoMainCardsContainermobile::-webkit-scrollbar {
+        display: none;
+    }
+    .medicalInfoMainCardsContainermobile {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    .medicalInfoMainCardsContainer {
+        display: none;
+    }
+
+    .medicalInfoMainTitletext {
+        width: 311px;
+        color: #006C68;
+        font-family: "EB Garamond";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.3rem;
+        /* 4.35rem */
+    }
+
+    .medicalInfoMainparatext {
+        width: 311px;
+        margin-top: 1rem;
+        align-self: stretch;
+        color: #006C68;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+        /* 2.625rem */
+    }
+
+
+
+    .medicalInfoCards {
+        width: 19.5rem;
+        height: 16.75rem;
+        flex-shrink: 0;
+        border-radius: 2.5rem;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .medicalInfoCardsTitle {
+        align-self: stretch;
+        color: #006C68;
+        font-family: "EB Garamond";
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.95rem;
+        /* 2.6rem */
+    }
+
+    .medicalInfoCardsdescription {
+        margin-top: 0.5rem;
+        color: #272B36;
+        /* font-family: "Proxima Nova"; */
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.313rem;
+        /* 1.6875rem */
+    }
+
+    .medicalInfoCardsimage {
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+
+    .medicalInfoCardsbutton {
+        margin-right: 20px;
+        width: "100%";
+        display: inline-flex;
+        padding: 0.6875rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 1.875rem;
+        background: #FFF;
+        color: #006C68;
+        text-align: center;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 1.6875rem */
+    }
+
+    .medicalInfocardImage {
+        /* width: 24.0625rem;
+        height: 14.5rem;
+        flex-shrink: 0; */
+    }
+    .medicalInfoMain {
+        padding-bottom: 0 !important;
+    }
+    .medicalInfoMainCards  {
+        margin-top: 0 !important;
+        padding: 1rem !important;
+        padding-bottom: 3rem !important;
+    } 
+}
+
+/* Tablet styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .medicalInfoMain {
+        margin-top: 2.25rem;
+        padding-bottom: 5rem;
+        padding-left: 1.5rem;
+    }
+
+    .medicalInfoMainCardsContainermobile {
+        display: flex;
+        gap: 0.75rem;
+        overflow-x: scroll;        
+    }
+
+    .medicalInfoMainCardsContainer {
+        display: none;
+    }
+
+    .medicalInfoMainTitletext {
+        width: 311px;
+        color: #006C68;
+        font-family: "EB Garamond";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.3rem;
+        /* 4.35rem */
+    }
+
+    .medicalInfoMainparatext {
+        width: 311px;
+        margin-top: 1rem;
+        align-self: stretch;
+        color: #006C68;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+        /* 2.625rem */
+    }
+
+
+
+    .medicalInfoCards {
+        width: 19.5rem;
+        height: 16.75rem;
+        flex-shrink: 0;
+        border-radius: 2.5rem;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
+    .medicalInfoCardsTitle {
+        align-self: stretch;
+        color: #006C68;
+        font-family: "EB Garamond";
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.95rem;
+        /* 2.6rem */
+    }
+
+    .medicalInfoCardsdescription {
+        margin-top: 0.5rem;
+        color: #272B36;
+        /* font-family: "Proxima Nova"; */
+        font-size: 0.875rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.313rem;
+        /* 1.6875rem */
+    }
+
+    .medicalInfoCardsimage {
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+
+    .medicalInfoCardsbutton {
+        margin-right: 20px;
+        width: "100%";
+        display: inline-flex;
+        padding: 0.6875rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 1.875rem;
+        background: #FFF;
+        color: #006C68;
+        text-align: center;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 1.6875rem */
+    }
+
+    .medicalInfocardImage {
+        /* width: 24.0625rem;
+        height: 14.5rem;
+        flex-shrink: 0; */
+    }
+}
+
+.medicalInfoMainCardsContainer::-webkit-scrollbar {
+    display: none;
+}
+.medicalInfoMainCardsContainer {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    cursor: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/Drag+cursor+(2).png") 50 50 ,auto;
+}
+.medicalInfoMainCardsContainer .medicalInfoCards {
+    /* cursor: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/Drag+cursor.png"), auto; */
+}
+
+.medicalInfoMainCards{
+    overflow-x: scroll;
+    padding: 4rem;
+}
+.medicalInfoMainCards::-webkit-scrollbar {
+    display: none;
+}
+.medicalInfoMainCards {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1025px) {
+
+    .homeblog_buttontext1 {
+        display:  none;
+    }
+    .medicalInfoMain {
+        margin-top: 5rem;
+        padding-bottom: 0;
+        padding-left: 4rem;
+    }
+
+    .medicalInfoMainCardsContainer {
+        display: flex;
+        gap: 0.75rem;
+        /* overflow-x: scroll; */
+        padding-right: 4rem;
+    }
+
+    .medicalInfoMainTitletext {
+        color: #006C68;
+        font-family: "EB Garamond";
+        font-size: 3.625rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 4.35rem */
+    }
+
+    .medicalInfoMainparatext {
+        margin-top: 1rem;
+        align-self: stretch;
+        color: #006C68;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 2.625rem */
+    }
+
+
+
+    .medicalInfoCards {
+        width: 40.375rem;
+        height: 20rem;
+        flex-shrink: 0;
+        border-radius: 2.5rem;
+        overflow: hidden;
+    }
+
+    .medicalInfoCardsTitle {
+        align-self: stretch;
+        color: #006C68;
+        font-family: "EB Garamond";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 130%;
+        /* 2.6rem */
+    }
+
+    .medicalInfoCardsdescription {
+        color: #272B36;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 1.6875rem */
+    }
+
+    .medicalInfoCardsbutton {
+        width: max-content;
+        display: inline-flex;
+        padding: 0.6875rem 1.125rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        border-radius: 1.875rem;
+        background: #FFF;
+        color: #006C68;
+        text-align: center;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 1.6875rem */
+    }
+
+    .medicalInfocardImage {
+        width: 12.375rem;
+        height: 17.375rem;
+        flex-shrink: 0;
+    }
+    .medicalInfoMainCardsContainermobile{
+        display: none;
+    }
+}

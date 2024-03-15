@@ -1,0 +1,205 @@
+.ContactUs {
+    padding: 4rem;
+    padding-top: 10rem;
+}
+
+.ContactUs_section1 {
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Banner+(2).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.ContactUs_sectio1_text {
+    width: 50%;
+    padding: 4rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ContactUs_sectio1_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 2rem;
+    width: 100%
+}
+
+.ContactUs_sectio1_text_description {
+    color: #272B36;
+    font-size: 20px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+}
+
+.contactus_section2 {
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/contactus/Our+Story.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 788px;
+    overflow: hidden;
+}
+
+.contactus_section2headercontainer {
+    padding-left: 64px;
+    /* padding-top: 80px; */
+    display: flex;
+    align-items: center;
+}
+
+.contactus_section2headerMainText {
+    width: 502px;
+    font-family: 'EB Garamond';
+    font-size: 112px;
+    font-weight: 700;
+    line-height: 112px;
+    color: #006C68;
+}
+
+.contactus_section2bottomconatiner {
+    display: flex;
+    padding-left: 64px;
+    gap: 46px;
+}
+
+.contactus_section2bottomtextconatiner {
+    width: 295px;
+    padding-right: 45px;
+    border-right: 1px solid #006C68;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.contactus_section2bottomheadertext {
+    width: max-content;
+    height: 42px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: px32px;
+    line-height: 41.6px;
+    font-weight: 500;
+    color: #006C68;
+    padding: 0px 10px;
+    font-family: 'EB Garamond', serif;
+
+}
+
+.conatctus_section3 {
+    padding-top: 74px;
+    padding-left: 64px;
+}
+
+.conatctus_section3heading {
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 69.6px;
+    text-align: center;
+    color: #006C68;
+}
+
+.conatctus_section3Container {
+    margin-top: 94px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+
+.inputlable {
+    font-family: 'EB Garamond', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #272B36;
+}
+
+.contactus_input {
+    margin-top: 18px;
+    width: 580px;
+    height: 62px;
+    border-radius: 6px;
+    border: 1px solid #C6C6C6;
+    padding: 18px;
+    outline: none;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+.contactus_section3leftContainer{
+    position: relative;
+    width: 574px;
+    height: 971px;
+    background-color: #AAEFDF;
+    border-radius: 12px 0px 0px 12px;
+
+}
+.contactus_section3leftmap{
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    width: 602px;
+    height: 608px;
+    border-radius: 12px;
+
+}
+.contactus_section3FormSubmitButton{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    background-color: #006C68;
+    color: #FFF;
+    border-radius: 30px;
+    padding: 12px 24px 12px 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .ContactUs {
+        padding: 0;
+        padding-top: 4rem;
+    }
+
+    .ContactUs_section1 {
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Banner+(1).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 650px;
+        border-radius: 0;
+        overflow: hidden;
+    }
+
+    .ContactUs_sectio1_text {
+        width: 100%;
+        padding: 2rem;
+        justify-content: flex-end;
+    }
+
+    .ContactUs_sectio1_text_heading {
+        font-size: 32px;
+        line-height: 115%;
+        margin-bottom: 1rem;
+    }
+
+    .ContactUs_sectio1_text_description {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+    .contactus_section2 {
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/contactus/Our+Story.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 750px;
+        overflow: hidden;
+    }
+
+}

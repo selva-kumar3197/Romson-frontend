@@ -1,0 +1,626 @@
+.aboutUs{
+    padding: 4rem;
+    padding-top: 10rem;
+}
+
+.aboutUs_section1{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Banner+(2).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.aboutUs_sectio1_text {
+    width: 50%;
+    padding: 4rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.aboutUs_sectio1_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-bottom: 2rem;
+    width: 100%
+
+}
+
+.aboutUs_sectio1_text_description {
+    color: #272B36;
+    font-size: 20px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+}
+
+
+
+.aboutUs_section2{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Our+Story.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    overflow: hidden;
+}
+
+.aboutUs_sectio2_text {
+    width: 50%;
+    padding: 4rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.aboutUs_sectio2_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+
+}
+
+.aboutUs_sectio2_text_description {
+    color: #272B36;
+    font-size: 20px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+}
+
+
+
+.aboutUs_section3{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Vision+Mission.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 950px; */
+    /* overflow: hidden; */
+    padding: 4rem;
+    /* padding-bottom: 0; */
+}
+
+.aboutUs_sectio3_box {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.aboutUs_sectio3_box_left {
+    width: 60%;
+}
+
+.aboutUs_sectio3_box_left_image {
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/ezgif+1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+    border-radius: 40px;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutUs_sectio3_box_left_image > span {
+    color: white;
+    font-size: 52px;
+    font-family: "EB Garamond";
+    line-height: 120%;
+    text-align: center;
+}
+
+.aboutUs_sectio3_box_left_text{
+    margin-top: 2rem;   
+    color: white;
+    font-size: 24px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+}
+
+.aboutUs_sectio3_box_right {
+    width: 40%;
+    padding-left: 1rem;
+    /* overflow: scroll; */
+    /* height: 884px; */
+
+}
+.aboutUs_sectio3_box_right::-webkit-scrollbar {
+    display: none;
+}
+.aboutUs_sectio3_box_right {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.aboutUs_sectio3_box_right_card {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 320px;
+    margin-bottom: 2rem;
+    border-radius: 45px;
+    padding: 3rem;
+}
+
+.aboutUs_sectio3_box_right_card.card1{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Vision.png");
+}
+.aboutUs_sectio3_box_right_card.card2{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Mission.png");
+}
+.aboutUs_sectio3_box_right_card.card3{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/value.png");
+}
+
+.aboutUs_sectio3_box_right_card_heading {
+    color: #006C68;
+    font-size: 32px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.aboutUs_sectio3_box_right_card_text{
+    color: #272B36;
+    font-size: 18px;
+    font-family: 'Proxima Nova';
+}
+
+
+.aboutUs_section4{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Timeline.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 713px;
+    overflow-x: auto;
+    display: flex;
+    cursor: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/Drag.svg") 50 50 , auto;
+}
+.aboutUs_section4::-webkit-scrollbar {
+    display: none;
+}
+.aboutUs_section4 {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.aboutUs_section4.second {
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Vision+Mission.png");
+}
+
+.aboutUs_section4_left{
+    padding: 4rem;
+    display: flex;
+    width: 60%;
+    position: relative;
+}
+.color-green {
+    color:#006C68 !important;
+}
+.color-white {
+    color:#fff !important;
+}
+
+.aboutUs_section4_left_date {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 145px;
+    font-weight: bold;
+    line-height: 120%;
+    font-family: 'EB Garamond', serif;
+    color:#006C68;
+}
+.aboutUs_section4_left_date > span {
+    color: white;
+}
+
+.aboutUs_section4_left1 {
+    width: 50%;
+    color: #006C68;
+    font-size: 32px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+}
+
+.aboutUs_section4_left2 {
+    width: 50%;
+}
+.aboutUs_section4_left2 > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    min-height: 500px;
+}
+
+.aboutUs_section4_right{
+    display: inline;
+    height: 500px;
+    width: 40%;
+    color: #006C68;
+    font-size: 18px;
+    font-family: 'Proxima Nova';
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    padding: 4rem 0;
+    padding-right: 4rem;
+}
+
+
+
+
+.aboutUs_section5{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Group+626588.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 780px; */
+    padding: 4rem;
+    padding-bottom: 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutUs_section5 > .react-reveal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutUs_section5_text {
+    color: #006C68;
+    font-size: 32px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: flex-start !important;
+}
+
+.aboutUs_section5_img {
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: 2rem 0;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+
+}
+
+
+.aboutUs_section6 {
+    display: flex;
+    width: 100%;
+    padding: 6rem 8rem;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    gap: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutUs_section6_text{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: none;
+    color: #006C68;
+    font-size: 32px;
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.aboutUs_section6 > div > .logo {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 1rem;
+}
+
+.aboutUs_section6 > div > .line {
+    height: 150px;
+}
+
+
+
+
+
+
+.aboutUs_section7{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Gallery.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 820px;
+    overflow: hidden;
+}
+
+.aboutUs_section7_text {
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs_section7_text_heading {
+    color: #006C68;
+    font-size: 58px;
+    font-family: 'EB Garamond', serif;
+    font-weight: 700;
+    line-height: 64px;
+    margin-top: 2rem;
+
+}
+
+.aboutUs_section7_text_heading2 {
+    color: #006C68;
+    font-size: 28px;
+    font-family: 'Proxima Nova';
+    line-height: 150%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.aboutUs_section7_cards {
+    padding-left: 4rem;  
+}
+.aboutUs_section7_cards .scroll-horizontal {
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.aboutUs_section7_cards::-webkit-scrollbar {
+    display: none;
+}
+.aboutUs_section7_cards {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.aboutUs_section7_cardItem {
+    margin-right: 20px;
+    border: none;
+    outline: none;
+}
+
+.aboutUs_section7_card_img {
+    height: 440px;
+    width: 670px;
+    margin-right: 2rem;
+    object-fit: cover;
+    border-radius: 40px;
+}
+.aboutUs_section7_card_img.slick-slide {
+    padding: 0 20px;
+  }
+
+@media screen and (max-width: 768px) {
+    .aboutUs {
+        padding: 0;
+        padding-top: 4rem;
+    }
+    .aboutUs_section1 {
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Banner+(1).png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        height: 650px;
+        border-radius: 0;
+        overflow: hidden;
+    }
+    .aboutUs_sectio1_text {
+        width: 100%;
+        padding: 2rem;
+        justify-content: flex-end;
+    }
+    .aboutUs_sectio1_text_heading {
+        font-size: 32px;
+        line-height: 115%;
+        margin-bottom: 1rem;
+    }
+    .aboutUs_sectio1_text_description {
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+
+    .aboutUs_section2 {
+        height: unset;
+        background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/AboutUs/Story.png") !important;
+    }
+    .aboutUs_sectio2_text {
+        width: 100%;
+        padding: 2rem;
+        justify-content: flex-end;
+    }
+    .aboutUs_sectio2_text_heading{
+        margin-top: 14rem;
+        font-size: 32px;
+        line-height: 115%;
+    }
+    .aboutUs_sectio2_text_description{
+        font-size: 16px;
+        line-height: 150%;
+    }
+
+
+
+    .aboutUs_section3 {
+        padding: 0rem;
+        height: unset;
+        
+    }
+    .aboutUs_sectio3_box {
+        display: block;
+    }
+    .aboutUs_sectio3_box_left {
+        width: 100%;
+        padding: 2rem;
+    }
+    .aboutUs_sectio3_box_left_image {
+        border-radius: 20px;
+        padding: 1rem;
+    }
+    .aboutUs_sectio3_box_left_image > span {
+        font-size: 28px;
+        text-align: start;
+    }
+    .aboutUs_sectio3_box_left_image {
+        align-items: flex-end;
+    }
+    .aboutUs_sectio3_box_left_text {
+        font-size: 18px;
+        line-height: 140%;
+    }
+    .aboutUs_sectio3_box_right {
+        display: flex;
+        height: unset;
+        overflow: scroll;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: unset;
+    }
+    .aboutUs_sectio3_box_right_card {
+        width: 80vw;
+        aspect-ratio: 4/4;
+        padding: 2rem;
+        margin-right: 10px;
+        background-position: right bottom;
+    }
+    .aboutUs_sectio3_box_right_card_heading {
+        font-size: 24px;
+        margin-bottom: 1rem;
+    }
+    .aboutUs_sectio3_box_right_card_text {
+        font-size: 14px;
+    }
+
+
+
+    .aboutUs_section4 {
+        display: block;
+        height: unset;
+    }
+    .aboutUs_section4_left {
+        padding: 1rem;
+        display: block;
+        width: 100%;
+    }
+    .aboutUs_section4_left1{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .aboutUs_section4_left2{
+        width: 100%;
+    }
+    .aboutUs_section4_left2 > img {
+        width: 90vw;
+        min-height:unset ;
+        object-fit: cover;
+    }
+    .aboutUs_section4_left_date {
+        position: relative;
+        top: unset;
+        left: unset;
+        transform: unset;
+        font-size: 70px;
+        font-weight: bold;
+        line-height: 120%;
+        font-family: 'EB Garamond', serif;
+        color:#006C68;
+        margin-top: 1rem;
+    }
+    .aboutUs_section4_left_date  > span {
+        color:#006C68;
+    }
+    .aboutUs_section4_right{
+        width: 100%;
+        padding: 1rem;
+        padding-top: 0;
+        padding-right: 1rem;
+        font-size: 16px;
+    }
+
+
+
+
+    .aboutUs_section5 {
+        height: unset;
+        padding: 1rem;
+        background-size: 100vw 100vh;
+    }
+    .aboutUs_section5_img {
+        width: 100%;
+    }
+
+
+
+
+    .aboutUs_section6 {
+        padding: 5rem 1rem 1rem 1rem;
+        gap: 1rem;
+        justify-content: center;
+        flex-wrap: wrap; 
+    }
+    .aboutUs_section6_text {
+        display: flex;
+
+    }
+    .aboutUs_section6 > div > .logo {
+        height: 90px;
+        width: 90px;
+    }
+    .aboutUs_section6 > div > .line {
+        height: 90px;
+    }
+
+
+
+
+    .aboutUs_section7 {
+        height: unset;
+        padding-bottom: 2rem;
+    }
+    .aboutUs_section7_text{
+        padding: 1rem;
+        padding-bottom: 2rem;
+    }
+    .aboutUs_section7_text_heading {
+        font-size: 32px;
+        margin-top: 0;
+    }
+    .aboutUs_section7_text_heading2 {
+        font-size: 16px;
+        margin: 0;
+    }
+    .aboutUs_section7_cards {
+        padding: 0;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .aboutUs_section7_card_img {
+        width: 80vw;
+        aspect-ratio: 3/4;
+        height: unset;
+        margin-right: 1rem;
+    }
+  }

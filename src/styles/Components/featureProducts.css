@@ -1,0 +1,433 @@
+/* Mobile styles */
+@media only screen and (max-width: 600px) {
+    .featureProducts_Main {
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .featureProducts_Top {
+        width: 100%;
+        /* height: 53.8125rem; */
+        background: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/FeatureProducts/Featured+Products.png') no-repeat;
+        background-size: cover;
+        /* Cover the entire container without repeating */
+    }
+
+
+    .featureProducts_TitleText {
+        color: #FFF;
+        font-family: "EB Garamond";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.3rem;
+        /* 3.6rem */
+    }
+
+    .featureProducts_paratext {
+        margin-top: 1rem;
+        color: #FFF;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+        /* 2.625rem */
+    }
+
+    .featureProducts_button1 {
+        margin-top: 40px;
+        margin-right: 1.5rem;
+        display: flex;
+        /* width: 100%; */
+        height: 3.1875rem;
+        padding: 0.75rem 1.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0;
+        border-radius: 1.875rem;
+        border: 1px solid #FFF;
+        background: #FFF;
+        color: #006C68;
+        font-family: "Proxima Nova";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.688rem;
+        /* 1.6875rem */
+    }
+
+    .productList_MainCardsConatainer {
+        display: flex;
+        align-items: flex-end;
+        gap: 1rem;
+        overflow-y: scroll;
+        margin-top: 2rem;
+    }
+
+    .productList_MainCards {
+        width: 19.5rem;
+        height: 25.875rem;
+        flex-shrink: 0;
+        border: 1px solid #FFF;
+        transition: all 0.3s ease;
+        /* Add a smooth transition effect */
+    }
+
+
+
+    .productList_MainCardsHeaderText {
+        margin-top: 1.5rem;
+        text-align: center;
+        color: #FFF;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.725rem;
+        text-transform: uppercase;
+    }
+
+
+
+    .request-loader {
+        margin-top: 1.56rem;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 19.625rem;
+        width: 12.313rem;
+        border-radius: 24.875rem;
+        background: #FFFFFF;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+    }
+    .featureProductExploreButton{
+        position: absolute;
+        bottom: 10%;
+        right: -10%;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background-color: #AAEFDF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: #006C68;
+    }
+}
+
+
+.productList_MainCardsConatainer::-webkit-scrollbar {
+    display: none;
+}
+.productList_MainCardsConatainer {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+/* Tablet styles */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .featureProducts_Main {
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+    }
+
+    .featureProducts_Top {
+        width: 100%;
+        /* height: 53.8125rem; */
+        background: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/FeatureProducts/Featured+Products.png') no-repeat;
+        background-size: cover;
+        /* Cover the entire container without repeating */
+    }
+
+
+    .featureProducts_TitleText {
+        color: #FFF;
+        font-family: "EB Garamond";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2.3rem;
+        /* 3.6rem */
+    }
+
+    .featureProducts_paratext {
+        margin-top: 1rem;
+        color: #FFF;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
+        /* 2.625rem */
+    }
+
+    .featureProducts_button1 {
+        margin-top: 40px;
+        margin-right: 1.5rem;
+        display: flex;
+        /* width: 100%; */
+        height: 3.1875rem;
+        padding: 0.75rem 1.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0;
+        border-radius: 1.875rem;
+        border: 1px solid #FFF;
+        background: #FFF;
+        color: #006C68;
+        font-family: "Proxima Nova";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.688rem;
+        /* 1.6875rem */
+    }
+
+    .productList_MainCardsConatainer {
+        display: flex;
+        align-items: flex-end;
+        gap: 1rem;
+        overflow-y: scroll;
+        margin-top: 2rem;
+    }
+
+    .productList_MainCards {
+        width: 19.5rem;
+        height: 25.875rem;
+        flex-shrink: 0;
+        border: 1px solid #FFF;
+        transition: all 0.3s ease;
+        /* Add a smooth transition effect */
+    }
+
+
+
+    .productList_MainCardsHeaderText {
+        margin-top: 1.5rem;
+        text-align: center;
+        color: #FFF;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.725rem;
+        text-transform: uppercase;
+    }
+
+
+
+    .request-loader {
+        margin-top: 1.56rem;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 19.625rem;
+        width: 12.313rem;
+        border-radius: 24.875rem;
+        background: #FFFFFF;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+    }
+    .featureProductExploreButton{
+        position: absolute;
+        bottom: 10%;
+        right: -10%;
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        background-color: #AAEFDF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 600;
+        color: #006C68;
+    }
+
+}
+
+/* Desktop styles */
+@media only screen and (min-width: 1025px) {
+    .featureProducts_Main {
+        padding-top: 5rem;
+        padding-left: 4rem;
+
+    }
+
+    .featureProducts_Top {
+        width: 100%;
+        height: 53.8125rem;
+        background: url('https://romsons.s3.ap-south-1.amazonaws.com/site-assets/homepage/FeatureProducts/Featured+Products.png') no-repeat;
+        background-size: cover;
+        /* Cover the entire container without repeating */
+    }
+
+
+    .featureProducts_TitleText {
+        color: #FFF;
+        font-family: "EB Garamond";
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 3.6rem */
+    }
+
+    .featureProducts_paratext {
+        margin-top: 1rem;
+        color: #FFF;
+        /* font-family: "Proxima Nova"; */
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 2.625rem */
+    }
+
+    .featureProducts_button {
+        display: flex;
+        width: 13.75rem;
+        height: 3.1875rem;
+        padding: 0.75rem 1.5rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5rem;
+        flex-shrink: 0;
+        border-radius: 1.875rem;
+        border: 1px solid #FFF;
+        background: #FFF;
+        color: #006C68;
+        font-family: "Proxima Nova";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 150%;
+        /* 1.6875rem */
+    }
+
+    .productList_MainCardsConatainer {
+        margin-top: 1rem;
+        display: flex;
+        align-items: flex-end;
+        gap: 1.5rem;
+        height: 40rem;
+        padding-bottom: 2rem;
+        padding-right:4rem;
+        overflow-x: scroll;
+
+    }
+
+    .productList_MainCards {
+        width: 24.8125rem;
+        height: 33.5rem;
+        flex-shrink: 0;
+        border: 1px solid #FFF;
+        transition: all 0.3s ease;
+        /* Add a smooth transition effect */
+    }
+
+    .productList_MainCards:hover {
+        width: 24.8125rem;
+        height: 38.125rem;
+        flex-shrink: 0;
+        border-radius: 3.125rem;
+    }
+
+    .productList_MainCardsHeaderText {
+        margin-top: 2.69rem;
+        text-align: center;
+        color: #FFF;
+        /* font-family: "Proxima Nova"; */
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    @mixin rings($duration, $delay) {
+        opacity: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: -8px;
+        left: -8px;
+        right: 0;
+        bottom: 0;
+        content: '';
+        height: 100%;
+        width: 100%;
+        border: 8px solid rgba(0, 0, 0, 0.2);
+        border-radius: 100%;
+        animation-name: ripple;
+        animation-duration: $duration;
+        animation-delay: $delay;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(.65, 0, .34, 1);
+        z-index: -1;
+    }
+
+    .request-loader {
+        margin-top: 1.56rem;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 24.875rem;
+        width: 15.6875rem;
+        border-radius: 24.875rem;
+        background: #FFFFFF;
+        box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+
+       
+    }
+    .request-loader:hover::after {
+        @include rings(3s, 0s);
+    }
+
+    .request-loader:hover::before {
+        @include rings(3s, 0.5s);
+    }
+
+    @keyframes ripple {
+        from {
+            opacity: 1;
+            transform: scale3d(0.75, 0.75, 1);
+        }
+
+        to {
+            opacity: 0;
+            transform: scale3d(1.5, 1.5, 1);
+        }
+    }
+    .featureProductExploreButton{
+        position: absolute;
+        bottom: 10%;
+        right: -10%;
+        width: 105px;
+        height: 105px;
+        border-radius: 100%;
+        background-color: #AAEFDF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+        color: #006C68;
+    }
+
+   
+
+}

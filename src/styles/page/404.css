@@ -1,0 +1,61 @@
+.page404{
+    padding: 4rem;
+    padding-top: 10rem;
+}
+
+.page404_section1{
+    background-image: url("https://romsons.s3.ap-south-1.amazonaws.com/site-assets/404/Frame+1000005166.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 752px;
+    border-radius: 25px;
+    /* aspect-ratio: 1300/750; */
+    overflow: hidden;
+}
+
+.page404_sectio1_text {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.page404_sectio1_text h1 {
+    font-family: "EB Garamond";
+    font-size: 320px;
+    color: white;
+    font-weight: bolder;
+}
+
+.page404_sectio1_text_heading {
+    font-family: "EB Garamond";
+    font-size: 320px;
+    color: white;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.page404_sectio1_text_description{
+    font-family: "Proxima Nova";
+    font-weight: bold;
+    font-size: 46px;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .page404 {
+        padding: 0;
+        padding-top: 4rem;
+    }
+    .page404_section1 {
+        border-radius: 0;
+    }
+    .page404_sectio1_text_heading {
+        font-size: 150px !important;
+    }
+    .page404_sectio1_text_description {
+        font-size: 35px;
+    }
+}
